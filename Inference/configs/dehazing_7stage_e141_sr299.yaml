@@ -1,0 +1,20 @@
+DATASETS:
+  TRAIN:
+    PATHS:
+      - "../datasets/NTIRE2023/Dehazing/train"
+  VAL:
+    PATH: "../datasets/NTIRE2023/Dehazing/val"
+  TEST:
+    PATH: "../datasets/NTIRE2023/Dehazing/test_a"
+
+MODEL:
+  TTA: True
+  DENOISER:
+    STAGE: 7
+    BODY_SHARE_PARAMS: False
+  SR:
+    DIM: 64
+
+
+PRETRAINED_DEHAZING_CKPT_PATH: "../Dehazing/exp/RDLUF_MixS2_7Stage/2023_03_14_20_57_11/model_epoch_141.pth"
+PRETRAINED_SR_CKPT_PATH: "../SuperResolution/exp/SR_7Stage/2023_03_16_23_56_09/model_epoch_299.pth"
