@@ -21,4 +21,4 @@ LOSS:
 
 DEBUG: False
 OUTPUT_DIR: "./exp/RDLUF_MixS2_3Stage/"
-PRETRAINED_CKPT_PATH: "./exp/RDLUF_MixS2_Origin2000_PG_Mosiac/2023_03_07_17_22_48/model_epoch_94.pth"
+PRETRAINED_CKPT_PATH: "./exp/RDLUF_MixS2_3Stage/2023_03_07_17_22_48/model_epoch_94.pth"

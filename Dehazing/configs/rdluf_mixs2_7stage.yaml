@@ -27,6 +27,6 @@ LOSS:
 
 
 DEBUG: False
-OUTPUT_DIR: "./exp/RDLUF_MixS2_7Stage_Origin2000_PG_Mosiac/"
-RESUME_CKPT_PATH: "./exp/RDLUF_MixS2_7Stage_Origin2000_PG_Mosiac/2023_03_14_12_04_36/model_epoch_52.pth"
-PRETRAINED_CKPT_PATH: "./exp/RDLUF_MixS2_7Stage_Origin2000_PG_Mosiac/2023_03_14_20_57_11/model_epoch_141.pth"
+OUTPUT_DIR: "./exp/RDLUF_MixS2_7Stage/"
+RESUME_CKPT_PATH: None
+PRETRAINED_CKPT_PATH: "./exp/RDLUF_MixS2_7Stage/2023_03_14_20_57_11/model_epoch_141.pth"

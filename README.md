@@ -1,4 +1,4 @@
-# RDLUF_MixS2 for High Resolution NonHomogeneous Dehazing
+# RDLUF_MixS2 for HR NonHomogeneous Dehazing
 
 
 
@@ -7,7 +7,35 @@
 
 # Dataset prepare
 
+You can download NTIRE 2023 HR NonHomogeneous Dehazing Challenge dataset after participating the challenge in the following link: [https://codalab.lisn.upsaclay.fr/competitions/10216#participate](https://codalab.lisn.upsaclay.fr/competitions/10216#participate)
 
+Your dataset directory should be composed of four directories as following:
+
+```shell
+datasets
+|--NTIRE2023
+|  |--Dehazing
+|     |--train
+|        |--images
+|           |--01
+|           |--02
+|           `-- ...
+|        |--labels
+|           |--01
+|           |--02
+|           `-- ...
+|     |--val
+|        |--images
+|           `-- ...
+|        |--labels
+|           `-- ...
+|     |--test_a
+|        |--images
+|           `-- ...
+|     |--test_b
+|        |--images
+|           `-- ...
+```
 
 # Inference
 
