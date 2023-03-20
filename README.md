@@ -1,6 +1,10 @@
 # RDLUF_MixS2 for HR NonHomogeneous Dehazing
 
 
+|                          *42*                           |                          *43*                           |                          *47*                           |                          *Scene 48*                           |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/42.gif"  height=160 width=240> | <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/43.gif" width=240 height=160> | <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/47.gif" width=240 height=160> | <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/48.gif" width=240 height=160> |
+
 
 ## Abstract
 
