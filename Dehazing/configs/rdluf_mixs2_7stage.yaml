@@ -8,7 +8,7 @@ DATASETS:
   VAL:
     PATH: "../datasets/NTIRE2023/Dehazing/val"
   TEST:
-    PATH: "../datasets/NTIRE2023/Dehazing/test_a"
+    PATH: "../datasets/NTIRE2023/Dehazing/test_b"
 
 DATALOADER:
   BATCH_SIZE: [10, 4, 2, 1]

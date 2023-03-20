@@ -6,7 +6,7 @@ DATASETS:
   VAL:
     PATH: "../datasets/NTIRE2023/SR_3Stage/val"
   TEST:
-    PATH: "../datasets/NTIRE2023/SR_3Stage/test_a"
+    PATH: "../datasets/NTIRE2023/SR_3Stage/test_b"
 
 DATALOADER:
   BATCH_SIZE: [10, 8, 3, 2, 1]

@@ -5,7 +5,7 @@ DATASETS:
   VAL:
     PATH: "../datasets/NTIRE2023/Dehazing/val"
   TEST:
-    PATH: "../datasets/NTIRE2023/Dehazing/test_a"
+    PATH: "../datasets/NTIRE2023/Dehazing/test_b"
 
 MODEL:
   TTA: True
