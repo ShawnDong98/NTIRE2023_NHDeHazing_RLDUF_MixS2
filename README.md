@@ -32,7 +32,10 @@ Diagram of the Mix $S^2$ Transformer and Mix $S^2$ SR. (a) Mix $S^2$ Transformer
 
 You can download NTIRE 2023 HR NonHomogeneous Dehazing Challenge dataset after participating the challenge in the following link: [https://codalab.lisn.upsaclay.fr/competitions/10216#participate](https://codalab.lisn.upsaclay.fr/competitions/10216#participate)
 
+
 Your dataset directory should be composed of four directories as following:
+
+**Note: For inference, you do not need the SR folders.** 
 
 ```shell
 datasets
@@ -58,7 +61,49 @@ datasets
 |     |--test_b
 |        |--images
 |           `-- ...
-|  |--SR
+|  |--SR_3Stage
+|     |--train
+|        |--LR
+|           |--01
+|           |--02
+|           `-- ...
+|        |--HR
+|           |--01
+|           |--02
+|           `-- ...
+|     |--val
+|        |--LR
+|           `-- ...
+|        |--HR
+|           `-- ...
+|     |--test_a
+|        |--LR
+|           `-- ...
+|     |--test_b
+|        |--LR
+|           `-- ...
+|  |--SR_5Stage
+|     |--train
+|        |--LR
+|           |--01
+|           |--02
+|           `-- ...
+|        |--HR
+|           |--01
+|           |--02
+|           `-- ...
+|     |--val
+|        |--LR
+|           `-- ...
+|        |--HR
+|           `-- ...
+|     |--test_a
+|        |--LR
+|           `-- ...
+|     |--test_b
+|        |--LR
+|           `-- ...
+|  |--SR_7Stage
 |     |--train
 |        |--LR
 |           |--01
@@ -110,4 +155,13 @@ python tools/train.py --config-file configs/rdluf_mixs2_7stage.yaml
 
 ```shell
 cd SuperResolution
+
+# 3stage
+python tools/train.py --config-file configs/sr2x_3stage.yaml
+
+# 5stage
+python tools/train.py --config-file configs/sr2x_5stage.yaml
+
+# 7stage
+python tools/train.py --config-file configs/sr2x_7stage.yaml
 ```

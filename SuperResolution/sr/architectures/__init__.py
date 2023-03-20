@@ -1,0 +1,1 @@
+from sr.architectures.sr_mixs2 import MixS2SR, Discriminator

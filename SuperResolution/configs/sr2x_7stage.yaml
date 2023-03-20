@@ -1,0 +1,28 @@
+DATASETS:
+  TRAIN:
+    PATHS:
+      - "../datasets/NTIRE2023/SR_7Stage/train"
+    CROP_SIZE: [[160, 240], [224, 336], [256, 384], [320, 480], [384, 576]]
+  VAL:
+    PATH: "../datasets/NTIRE2023/SR_7Stage/val"
+  TEST:
+    PATH: "../datasets/NTIRE2023/SR_7Stage/test_b"
+
+DATALOADER:
+  BATCH_SIZE: [10, 8, 6, 5, 4]
+
+MODEL:
+  SR:
+    DIM: 64
+    NUM_HEADS: 2
+
+LOSS:
+  TV_LOSS: False
+  SSIM_LOSS: True
+  VGG_LOSS: True
+  GAN_LOSS: True
+
+
+DEBUG: False
+OUTPUT_DIR: "./exp/SR_7Stage/"
+PRETRAINED_CKPT_PATH: ""
