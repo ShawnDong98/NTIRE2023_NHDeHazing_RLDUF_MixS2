@@ -11,6 +11,10 @@
 <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/Pipeline.png" width = "700" height = "150" alt="">
 </div>
 
+<div align=center>
+<img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/RDLUF.png" width = "700" height = "270" alt="">
+</div>
+
 ## Dataset prepare
 
 You can download NTIRE 2023 HR NonHomogeneous Dehazing Challenge dataset after participating the challenge in the following link: [https://codalab.lisn.upsaclay.fr/competitions/10216#participate](https://codalab.lisn.upsaclay.fr/competitions/10216#participate)
