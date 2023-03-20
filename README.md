@@ -24,7 +24,7 @@ The architecture of our RDLUF with K stages (iterations). RDLGD and PM denote th
 <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/MixS2T_MixS2SR.png" width = "700" height = "635" alt="">
 </div>
 
-Diagram of the Mix $S^2$ Transformer and Mix$S^2$SR. (a) Mix $S^2$ Transformer adopts a U-shaped structure with block interactions. (b)The basic unit of the Mix $S^2$ Transformer, Mix $S^2$ block. (c)The structure of the spectral self-attention branch. (d)The structure of the lightweight inception branch. (e)The components of the gated-Dconv feed-forward network(GDFN). (f) Mix $S^2$ SR consists of several Mix $S^2$ Blocks and a PixelShuffle module.
+Diagram of the Mix $S^2$ Transformer and Mix $S^2$ SR. (a) Mix $S^2$ Transformer adopts a U-shaped structure with block interactions. (b)The basic unit of the Mix $S^2$ Transformer, Mix $S^2$ block. (c)The structure of the spectral self-attention branch. (d)The structure of the lightweight inception branch. (e)The components of the gated-Dconv feed-forward network(GDFN). (f) Mix $S^2$ SR consists of several Mix $S^2$ Blocks and a PixelShuffle module.
 
 ## Dataset prepare
 
