@@ -8,7 +8,7 @@
 
 
 <div align=center>
-<img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/master/figures/Pipeline.png" width = "700" height = "150" alt="">
+<img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/Pipeline.png" width = "700" height = "150" alt="">
 </div>
 
 ## Dataset prepare
