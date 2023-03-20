@@ -1,0 +1,32 @@
+DATASETS:
+  TRAIN:
+    PATHS:
+      - "../datasets/NTIRE2023/Dehazing/train"
+    ORIGIN_SIZE: [2000, 3000]
+    CROP_SIZE: [[164, 246], [256, 384], [352, 528], [512, 768]]
+    # CROP_SIZE: [[352, 528]]
+  VAL:
+    PATH: "../datasets/NTIRE2023/Dehazing/val"
+  TEST:
+    PATH: "../datasets/NTIRE2023/Dehazing/test_a"
+
+DATALOADER:
+  BATCH_SIZE: [10, 4, 2, 1]
+  # BATCH_SIZE: [2]
+
+MODEL:
+  DENOISER:
+    STAGE: 7
+    BODY_SHARE_PARAMS: False
+
+LOSS:
+  TV_LOSS: False
+  SSIM_LOSS: True
+  VGG_LOSS: True
+  GAN_LOSS: True
+
+
+DEBUG: False
+OUTPUT_DIR: "./exp/RDLUF_MixS2_7Stage_Origin2000_PG_Mosiac/"
+RESUME_CKPT_PATH: "./exp/RDLUF_MixS2_7Stage_Origin2000_PG_Mosiac/2023_03_14_12_04_36/model_epoch_52.pth"
+PRETRAINED_CKPT_PATH: "./exp/RDLUF_MixS2_7Stage_Origin2000_PG_Mosiac/2023_03_14_20_57_11/model_epoch_141.pth"
