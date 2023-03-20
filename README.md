@@ -4,6 +4,8 @@
 
 ## Abstract
 
+We present a novel approach for High-Resolution NonHomogeneous Dehazing, which involves a two-phase procedure. The first phase, NonHomogeneous Dehazing, is based on proximal gradient descent (PGD) deep unfolding, incorporating a residual degradation learning strategy in the gradient descent step and a Mix $S^2$ Transformer Network as the proximal mapping module. In the second phase, Super-Resolution refinement, we propose the Mix $S^2$ SR network to use the results generated in the first phase for super-resolution and refinement, which comprises multiple Mix $S^2$ Blocks and a PixelShuffle module. This approach enables us to effectively remove nonhomogeneous haze in high-resolution images, while also improving the quality of the images through super-resolution refinement.
+
 ## Architecture
 
 
