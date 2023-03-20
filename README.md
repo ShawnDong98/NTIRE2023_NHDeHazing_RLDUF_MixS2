@@ -11,13 +11,20 @@
 <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/Pipeline.png" width = "700" height = "150" alt="">
 </div>
 
+The whole pipeline of the proposed method, comprising a NonHomogeneous Dehazing phase and a Super-Resolution refinement phase.
+
+
 <div align=center>
 <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/RDLUF.png" width = "700" height = "270" alt="">
 </div>
 
+The architecture of our RDLUF with K stages (iterations). RDLGD and PM denote the Residual Degradation Learning Gradient Descent module and the Proximal Mapping module in each stage.  There is a stage interaction between stages.
+
 <div align=center>
 <img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/MixS2T_MixS2SR.png" width = "700" height = "635" alt="">
 </div>
+
+Diagram of the Mix$S^2$ Transformer and Mix$S^2$SR. (a) Mix$S^2$ Transformer adopts a U-shaped structure with block interactions. (b)The basic unit of the Mix$S^2$ Transformer, Mix$S^2$ block. (c)The structure of the spectral self-attention branch. (d)The structure of the lightweight inception branch. (e)The components of the gated-Dconv feed-forward network(GDFN). (f) Mix$S^2$SR consists of several Mix$S^2$ Blocks and a PixelShuffle module.
 
 ## Dataset prepare
 
