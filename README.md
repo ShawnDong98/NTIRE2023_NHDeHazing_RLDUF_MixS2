@@ -167,3 +167,16 @@ python tools/train.py --config-file configs/sr2x_5stage.yaml
 # 7stage
 python tools/train.py --config-file configs/sr2x_7stage.yaml
 ```
+
+## Citation
+
+If this code helps you, please consider citing our works:
+
+```shell
+@inproceedings{rdluf_mixs2,
+  title={Residual Degradation Learning Unfolding Framework with Mixing Priors across Spectral and Spatial for Compressive Spectral Imaging},
+  author={Yubo Dong and Dahua Gao and Tian Qiu and Yuyan Li and Minxi Yang and Guangming Shi},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2023}
+}
+```
