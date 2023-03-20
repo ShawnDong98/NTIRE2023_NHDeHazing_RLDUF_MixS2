@@ -16,7 +16,7 @@
 </div>
 
 <div align=center>
-<img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/MixS2T_MixS2SR.png" width = "600" height = "550" alt="">
+<img src="https://github.com/ShawnDong98/NTIRE2023_NHDeHazing_RLDUF_MixS2/blob/main/figures/MixS2T_MixS2SR.png" width = "700" height = "635" alt="">
 </div>
 
 ## Dataset prepare
