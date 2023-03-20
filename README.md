@@ -2,10 +2,10 @@
 
 
 
-# Abstract
+## Abstract
 
 
-# Dataset prepare
+## Dataset prepare
 
 You can download NTIRE 2023 HR NonHomogeneous Dehazing Challenge dataset after participating the challenge in the following link: [https://codalab.lisn.upsaclay.fr/competitions/10216#participate](https://codalab.lisn.upsaclay.fr/competitions/10216#participate)
 
@@ -37,13 +37,13 @@ datasets
 |           `-- ...
 ```
 
-# Inference
+## Inference
 
 ```shell
 cd Inference
 ```
 
-# NH DeHazing Phase Traning
+## NH DeHazing Phase Traning
 
 
 ```shell
@@ -59,7 +59,7 @@ python tools/train.py --config-file configs/rdluf_mixs2_5stage.yaml
 python tools/train.py --config-file configs/rdluf_mixs2_7stage.yaml 
 ```
 
-# SuperResolution Refinement Phase Training
+## SuperResolution Refinement Phase Training
 
 
 ```shell
